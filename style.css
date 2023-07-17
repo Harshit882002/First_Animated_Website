@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    color :black
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+   background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80);
+   background-size: cover;
+    background-position: center;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 28px;
+}
+.part2{
+    display: flex;
+    gap: 60px;
+    letter-spacing: 2px;
+    transition: all ease 0.5;
+    cursor: pointer;
+}
+.part2 h3:hover{
+    color: #3a3e99;
+    scale: 1.1;
+}
+.part3{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+ .img1{
+    height: 36px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+.img1:hover{
+    scale: 1.5;
+}
+.nav h3{
+    text-transform: uppercase;
+}
+
+.img2{
+    height: 28px;
+    transition: 0.5s;
+}
+.img2:hover{
+    scale: 1.5;
+}
+.img3{
+    height: 30px;
+    transition: 0.5s;
+}
+.img3:hover{
+    scale: 1.5;
+}
+.img4{
+    height: 30px;
+    transition: 0.5s;
+}
+.img4:hover{
+    scale: 1.5;
+}
+.img5{
+    height: 30px;
+    transition: 0.5s;
+}
+.img5:hover{
+    scale: 1.5;
+}
+
+.content{
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 10%;
+    top: 23%;
+}
+
+.para{
+  font-size: 18px;
+  color: #14516C;
+  margin-top: 10px;
+  letter-spacing: 2px;
+}
+.para:hover{
+    color:#3a3e99;
+}
+.content h1{
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #14516C;
+}
+.content h1:hover{
+    color:#3a3e99;
+}
+.para1{
+    font-size: 18px;
+    color: #14516C;
+    letter-spacing: 1px;
+    margin-top: 10px;
+   
+}
+.para1:hover{
+    color: #3a3e99;
+}
+button{
+    background-color: #14516C;
+    color: white;
+    padding: 15px 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 35px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #3a3e99;
+    scale: 1.10;
+}
+.box1{
+   height: 280px;
+   width: 210px;
+   background-image: url(https://images.unsplash.com/photo-1515404929826-76fff9fef6fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80); 
+   background-size: cover;
+   background-position: center;
+   border-radius: 25px;
+   position: absolute;
+   top: 30%;
+   right: 40%;
+   transition: 0.5s;
+}
+.box1:hover{
+    scale: 1.10;
+}
+.box2{
+    height: 280px;
+    width: 210px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1666863909125-3a01f038e71f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1086&q=80);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    position: absolute;
+    top: 30%;
+    right: 22%;
+    transition: 0.5s;
+}
+.box2:hover{
+    scale: 1.10;
+}
+.box3{
+    height: 280px;
+    width: 210px;
+    background-image: url(https://images.unsplash.com/photo-1575540616469-cc6185554e1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1878&q=80);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    position: absolute;
+    top: 30%;
+    right: 4%;
+    transition: 0.5s;
+}
+.box3:hover{
+    scale: 1.10;
+}
+.box1 h2{
+    font-size: 27px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* text-align: center; */
+    position: absolute;
+    bottom: 5%;
+    left: 7px;
+    color: white;
+    
+}
+.box2 h2{
+    font-size: 27px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 5px;
+   left: 7px;
+    color: white;
+}
+.box3 h2{
+    font-size: 27px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 5px;
+    left: 7px;
+    color: white;
+}
